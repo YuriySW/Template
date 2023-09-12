@@ -1,0 +1,23 @@
+.section-callback__form{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center; 
+   gap: 21px; 
+   margin-bottom: 61px;
+}
+
+@media (max-width: 1024px){
+   .section-callback__form{
+      gap: 20px;
+      margin-bottom: 50px;
+   }
+}
+
+
+@media (max-width: 320px){
+   .section-callback__form{
+      gap: 15px;
+      margin-bottom: 45px;
+   }
+}

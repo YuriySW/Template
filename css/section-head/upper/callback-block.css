@@ -1,0 +1,11 @@
+.callback-block{
+   display: flex;
+   flex-direction: column;
+   gap: 2.85px;
+}
+
+@media (max-width: 1024px) {
+   .callback-block{
+      gap: 4px;
+   }
+}

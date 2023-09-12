@@ -1,0 +1,47 @@
+.section-more__item{
+   max-width: 196px;
+  
+}
+
+.section-more__item svg{
+   margin-bottom: 10px;
+   cursor: pointer;
+}
+
+.section-more__item svg text{
+   font-size: 57px;
+   fill: var(--color-white);
+   text-transform: uppercase;
+   font-weight: 500;
+   font-family: 'Roboto';
+   text-align: center;
+}
+
+.section-more__item svg:hover circle{
+   fill: var(--color-gray);
+   transition: 0.5s;
+}
+
+.section-more__item svg:hover text {
+   fill: var(--color-white);
+   transition: 0.5s;
+   font-size: 55px;
+   text-shadow: 2px 1px 4px #15A9CB;
+}
+
+@media (max-width: 1024px){
+  .section-more__item svg{
+   max-width: 104px;
+   margin-bottom: 20px;
+  }  
+  .section-more__item svg text{
+   font-size: 52px;
+  }
+  .section-more__item svg:hover text{
+   font-size: 50px;
+  }
+}
+
+@media (max-width: 320px){
+  
+}

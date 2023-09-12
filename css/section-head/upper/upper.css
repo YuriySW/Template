@@ -1,0 +1,30 @@
+.upper{
+   display: flex;
+   justify-content: space-between;
+   align-items:  center;
+   margin-bottom: 120px;
+}
+
+.upper_sub{
+   margin: 0;
+}
+
+
+@media (max-width: 1024px){
+   .upper{
+      margin-bottom: 79px;
+   }
+   .upper_sub{
+      margin: 0;
+   }
+}
+
+
+@media (max-width: 320px){
+   .upper{
+      margin-bottom: 65px;
+   }
+   .upper_sub{
+      margin-bottom: 40px;
+   }
+}

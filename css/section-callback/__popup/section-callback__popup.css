@@ -1,0 +1,64 @@
+.section-callback__popup{
+   display: inline-flex;
+}
+
+.section-callback__input-accept-btn{
+   color: #4A76A8;
+   text-decoration: underline;
+   text-underline-offset: 3px;
+   cursor: pointer;
+   font-family: 'Roboto';
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   z-index: 1;
+   padding: 0 5px;
+}
+
+.section-callback__input-accept{
+   opacity: 0;
+   position: relative;
+   left: 50px;
+   cursor: pointer;
+   z-index: -1;
+}
+
+.section-callback__input-accept-btn:hover{
+   color: #15A9CB;
+   transition-duration: 0.3s;
+}
+
+.section-callback__input-accept-btn:active{
+  text-decoration: none;
+  color: aliceblue;
+
+}
+
+.section-callback__input-accept-btn:focus{
+   outline: 1px solid #15A9CB;
+}
+
+.section-callback__input-accept:checked + .section-callback__input-accept-btn{
+   color: #15A9CB;
+}
+
+@media (max-width: 1024px){
+   .section-callback__input-accept-btn{
+      font-size: 17px;
+   }
+}
+
+@media (max-width: 320px){
+   .section-callback__input-accept-btn{
+      font-size: 11px;
+   }
+
+   .section-callback__popup{
+      max-width: 289px;
+   }
+   .section-callback__input-accept:checked + .section-callback__input-accept-btn{
+      color: #15A9CB;
+   }
+  
+}

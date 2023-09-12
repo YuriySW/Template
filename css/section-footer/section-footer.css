@@ -1,0 +1,18 @@
+.section-footer{
+   background-color: #2F324B;
+   padding: 45px 0 45px;
+}
+
+@media (max-width: 1024px){
+   .section-footer{
+      padding: 43px 0 43px;
+   }
+}
+
+@media (max-width: 320px){
+   .section-footer{
+      padding: 25px 0 15px;
+      background: linear-gradient(to bottom, #2F324B 80px,  #2A2C3F 37px);
+      min-height: 117px;
+   }
+}

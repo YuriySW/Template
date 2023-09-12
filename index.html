@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preload" href="fonts/Roboto-Regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="fonts/Roboto-Bold.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Template</title>
+  </head>
+  <body>
+    <main>
+      <section class="section-head">
+        <div class="container">
+          <div class="upper">
+            <img class="logo" src="logo.svg" alt="logo" />
+            <address class="callback-block">
+              <a href="tel:+79625561234" class="main-callback main-callback_number">+7 (962) 556 - 1234</a>
+              <a href="#callback" class="main-callback main-callback_text">Перезвоните мне</a>
+            </address>
+            <a class="logo-link" href="#callback"><img class="logo-phone" src="img/phone.svg" alt="logo-phone"></a>
+          </div>
+          <h1 class="section-head__title">Заголовок c уникальным торговым 
+ предложение по системе 4U</h1>
+          <p class="section-head__text">Описания предлжения компании. Сайт рыбатекст поможет дизайнеру, верстальщику,
+  вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на 
+русском языке, а начинающему.</p>
+<p class="section-head__text-adaptive">Описания предлжения компании. Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более.</p>
+          <a href="#more" class="button">Подробнее</a>
+        </div>
+      </section>
+
+      <section class="section-more" id="more">
+        <div class="container">
+        <h2 class="section-more__title">Уникальный заголовок для преимущества компании</h2>
+        <p class="about-us"> О нас</p>
+       <p class="main-text">   Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать  
+несколько абзацев более менее осмысленного текста рыбы на русском языке, а
+ начинающему оратору отточить.</p>
+        <ul class="section-more__list">
+          <li class="section-more__item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="123" height="122" viewBox="0 0 123 122" fill="none">
+              <circle cx="61.8184" cy="61" r="61" fill="#23C7EC"/>
+              <text x="45" y="80">1</text>
+            </svg>
+            <p class="section-more__text">Первое целевое преимущество</p>
+          </li>
+          <li class="section-more__item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="123" height="122" viewBox="0 0 123 122" fill="none">
+              <circle cx="61.8184" cy="61" r="61" fill="#23C7EC"/>
+              <text x="45" y="80">2</text>
+            </svg>
+            <p class="section-more__text">Второе целевое преимущество</p>
+          </li>
+          <li class="section-more__item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="123" height="122" viewBox="0 0 123 122" fill="none">
+              <circle cx="61.8184" cy="61" r="61" fill="#23C7EC"/>
+              <text x="45" y="80">3</text>
+            </svg>
+            <p class="section-more__text">Третье целевое преимущество</p>
+          </li>
+          <li class="section-more__item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="123" height="122" viewBox="0 0 123 122" fill="none">
+              <circle cx="61.8184" cy="61" r="61" fill="#23C7EC"/>
+              <text x="45" y="80">4</text>
+            </svg>
+            <p class="section-more__text">Четвертое целевое преимущество</p>
+          </li>
+        </ul>
+        </div>
+      </section>
+
+      <section class="section-callback">
+        <div class="container">
+       <h2 class="section-callback__title">Остались вопросы?</h2>
+       <p class="section-callback__text">Оставьте номер телефона, и мы перезвоним вам</p>
+        <form class="section-callback-block" name="callback" action="https://jsonplaceholder.typicode.com/posts" method="POST">
+        <div class="section-callback__form">
+        <input class="section-callback__input" placeholder="Ваше имя" type="text" name="name" required>
+        <input class="section-callback__input" placeholder="Телефон" type="number" name="phone" required>
+        <input class="section-callback__input" placeholder="E-mail" type="email" name="email" required>
+        </div>
+        <button type="submit" class="button button_sub" id="callback">позвоните мне</button>
+        <div class="section-callback__popup">
+        <p class="section-callback__text-sub">Я даю своё</p> 
+          <input class="section-callback__input-accept" type="checkbox" name="accept" value="accept" id="accept" required
+          oninvalid="this.setCustomValidity('Нажмите сюда для согласия')" oninput="setCustomValidity('')"/>
+          <label class="section-callback__input-accept-btn" for="accept" tabindex="0" > согласие </label>
+          <p class="section-callback__text-sub"> на обработку моих персональных 
+     данных.</p>
+        </div>
+      </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="section-footer">
+        <div class="container">
+          <div class="upper upper_sub">
+          <div class="footer-block">
+          <img class="logo" src="logo.svg" alt="logo"/>
+          <div>
+            <p class="footer-text">© 2022 XXXcompany.</p>
+          <p class="footer-text">Все права защищены.</p>
+        </div>
+         </div>
+        <p class="footer-text-middle">Сделано в Ивановым Иваном</p>
+        <address class="callback-block">
+          <a href="tel:+79625561234" class="main-callback main-callback_number">+7 (962) 556 - 1234</a>
+          <a href="#callback" class="main-callback main-callback_text">Перезвоните мне</a>
+        </address>
+        <a class="logo-link" href="#callback"><img class="logo-phone logo-phone_sub" src="img/phone.svg" alt="logo-phone"></a>
+      </div>
+      <p class="footer-text-middle-sub">Сделано в Ивановым Иваном</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

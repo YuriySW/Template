@@ -1,0 +1,39 @@
+.section-callback__input{
+   padding: 9px 162px 9px 25px;
+   border-radius: 50px;
+   border: 1.382px solid #FFF;
+   background: transparent;
+   color: rgba(255, 255, 255, 0.50);
+   font-family: 'Roboto';
+   font-size: 22px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.section-callback__input:focus{
+   outline: 2px solid #15A9CB;
+}
+
+@media (max-width: 1024px){
+   .section-callback__input{
+      padding: 8px 138px 8px 23px;
+      font-size: 20px;
+   }
+}
+
+@media (max-width: 320px){
+   .section-callback__input{
+      padding: 6px 127px 6px 18px;
+      font-size: 14px;
+   }
+}
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}

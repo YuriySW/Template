@@ -1,0 +1,30 @@
+@import 'var.css';
+@import 'style.css';
+@import 'normalize.css';
+@import 'section-head/section-head.css';
+@import 'section-head/upper/main-callback.css';
+@import 'section-head/upper/upper.css';
+@import 'section-head/upper/callback-block.css';
+@import 'section-head/__title/section-head__title.css';
+@import 'section-head/__text/section-head__text.css';
+@import 'section-head/button/button.css';
+@import 'section-more/section-more.css';
+@import 'section-more/__title/section-more__title.css';
+@import 'section-more/about-us.css';
+@import 'section-more/main-text.css';
+@import 'section-more/__list/section-more__list.css';
+@import 'section-more/__item/section-more__item.css';
+@import 'section-more/__text/section-more__text.css';
+@import 'section-callback/section-callback.css';
+@import 'section-callback/__title/section-callback__title.css';
+@import 'section-callback/__text/section-callback__text.css';
+@import 'section-callback/__form/section-callback__form.css';
+@import 'section-callback/__form/section-callback__input.css';
+@import 'section-callback/__form/section-callback__text-sub.css';
+
+@import 'section-callback/__popup/section-callback__popup.css';
+
+@import 'section-footer/section-footer.css';
+@import 'section-footer/footer-text.css';
+@import 'section-footer/footer-block/footer-block.css';
+@import 'section-callback/__form/section-callback-block.css';

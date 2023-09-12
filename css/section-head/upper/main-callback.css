@@ -1,0 +1,77 @@
+.main-callback{
+   color: var(--color-white);
+   text-align: center;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   display: block;
+}
+
+.logo-phone, .logo-link{
+   display: none;
+}
+
+.main-callback_number{
+   font-size: 23.85px;
+}
+
+.main-callback_text{
+   font-size: 16px;
+   text-decoration: underline;
+   text-underline-offset: 4px;
+}
+
+.main-callback:hover{
+   color: rgba(255, 255, 255, 0.75);
+}
+
+.main-callback:active{
+   color: #15A9CB;
+}
+
+.main-callback:focus{
+   outline: 1px solid #15A9CB;
+   display: flex;
+
+   align-items: flex-start;
+   align-self: center;
+}
+
+@media (max-width: 1024px) {
+   .main-callback_number{
+    font-size: 21px;
+   }
+
+   .logo-phone{
+      display: none;
+   }
+
+   .logo{
+      max-width: 60px;
+   }
+
+   .main-callback_text{
+      font-size: 13px;
+   }
+}
+
+@media (max-width: 320px) {
+   .main-callback_number, .main-callback_text{
+    display: none;
+   }
+   
+   .logo-phone, .logo-link {
+     display: block;
+     min-height: 24px;
+     max-width: 24px;
+   }
+
+   .test, .logo-phone:active{
+      color: #15A9CB;
+   }
+
+   .logo{
+      max-width: 30px;
+   }
+}

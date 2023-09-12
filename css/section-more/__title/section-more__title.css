@@ -1,0 +1,25 @@
+.section-more__title{
+   margin: 0;
+   color: #383A4C;
+   text-align: center;
+   font-family: 'Roboto';
+   font-size: 35px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   margin-bottom: 25px;
+}
+
+@media (max-width: 1024px){
+   .section-more__title{
+      font-size: 32px;
+      margin-bottom: 23px;
+   }
+}
+
+@media (max-width: 320px){
+   .section-more__title{
+      font-size: 20px;
+      margin-bottom: 15px;
+   }
+}

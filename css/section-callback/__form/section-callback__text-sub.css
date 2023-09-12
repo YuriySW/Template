@@ -1,0 +1,39 @@
+.section-callback__text-sub{
+   color: #FFF;
+   text-align: center;
+   font-family: 'Roboto';
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   /* white-space: pre-wrap; */
+   
+}
+
+.section-callback__text-sub:first-child{
+   margin-right: -11px;
+}
+
+@media (max-width: 1024px){
+   .section-callback__text-sub{
+      font-size: 17px;
+  
+   }
+}
+
+@media (max-width: 320px){
+   .section-callback__text-sub{
+      font-size: 11px;
+      white-space: pre;
+      text-align: left;
+   }
+
+   .section-callback__text-sub:first-child{
+      width: 30%;
+      margin-right: -10px; 
+   }
+
+   .section-callback__text-sub:last-child{
+      width: 87%;
+   }
+}

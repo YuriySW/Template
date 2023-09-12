@@ -1,0 +1,53 @@
+.about-us{
+   color: #383A4C;
+   text-align: center;
+   font-family: 'Roboto';
+   font-size: 22px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   margin-bottom: 35px;
+}
+
+.about-us:before{
+   content: '';
+   display: inline-block;
+   background-color: #383A4C;
+   width: 43px;
+   height: 2px;
+   position: relative;
+   bottom: 5px;
+   right: 21px;
+}
+
+.about-us:after{
+   content: '';
+   display: inline-block;
+   background-color: #383A4C;
+   width: 43px;
+   height: 2px;
+   position: relative;
+   bottom: 5px;
+   left: 23px;
+}
+
+@media (max-width: 1024px){
+   .about-us{
+      font-size: 20px;
+      margin-bottom: 33px;
+   }
+   .about-us:before, .about-us:after{
+      width: 42;
+   }
+}
+
+@media (max-width: 320px){
+   .about-us{
+      font-size: 16px;
+      margin-bottom: 26px;
+   }
+   .about-us:before, .about-us:after{
+      width: 20px;
+      height: 1px;
+   }
+}
