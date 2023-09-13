@@ -1,4 +1,4 @@
-.section-callback__popup{
+.section-callback__wrap{
    display: inline-flex;
 }
 
@@ -54,7 +54,7 @@
       font-size: 11px;
    }
 
-   .section-callback__popup{
+   .section-callback__wrap{
       max-width: 289px;
    }
    .section-callback__input-accept:checked + .section-callback__input-accept-btn{

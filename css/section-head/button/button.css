@@ -15,9 +15,17 @@
 
 .button_sub{
    margin-bottom: 38px;
+   padding: 11px 38px;
 }
 
 .button:hover{
+   background: #18cbf3;
+   outline: 1px solid #2F324BD9;
+   transition: 0.5s;
+}
+
+
+.button:focus{
    background: var(--color-white);
    box-shadow: inset 0px 4px 25px 0px rgba(21, 169, 203, 0.30);
    outline: 1px solid #15A9CB;
@@ -26,7 +34,7 @@
    
 }
 
-.button:active, .button:focus{
+.button:active{
    color: #2F324BD9;
    border-radius: 50px;
    background: #15A9CB;
@@ -34,6 +42,10 @@
    padding: 12px 48px;
    outline: 1px solid #2F324BD9;
    transition: 0.2s;
+}
+
+.button_sub:active{
+   padding: 11px 38px;
 }
 
 @media (max-width: 1024px){
@@ -44,8 +56,13 @@
       padding: 11px 49px;
    }
    .button_sub{
+      padding: 11px 38px;
       margin-bottom: 30px;
    }
+   .button_sub:active, .button_sub:focus{
+      padding: 11px 38px;
+   }
+
 }
 
 @media (max-width: 320px){
@@ -59,6 +76,11 @@
    }
 
    .button_sub{
+      padding: 10px 26px;
       margin-bottom: 30px;
+   }
+
+   .button_sub:active, .button_sub:focus{
+      padding: 10px 26px;
    }
 }

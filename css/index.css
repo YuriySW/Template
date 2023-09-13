@@ -22,8 +22,7 @@
 @import 'section-callback/__form/section-callback__input.css';
 @import 'section-callback/__form/section-callback__text-sub.css';
 
-@import 'section-callback/__popup/section-callback__popup.css';
-
+@import 'section-callback/__wrap/section-callback__wrap.css';
 @import 'section-footer/section-footer.css';
 @import 'section-footer/footer-text.css';
 @import 'section-footer/footer-block/footer-block.css';

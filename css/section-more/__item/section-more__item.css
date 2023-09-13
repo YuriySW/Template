@@ -17,8 +17,8 @@
    text-align: center;
 }
 
-.section-more__item svg:hover circle{
-   fill: var(--color-gray);
+.section-more__item:hover svg circle{
+   fill: #1c7487;
    transition: 0.5s;
 }
 

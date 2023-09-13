@@ -81,10 +81,10 @@
         <input class="section-callback__input" placeholder="E-mail" type="email" name="email" required>
         </div>
         <button type="submit" class="button button_sub" id="callback">позвоните мне</button>
-        <div class="section-callback__popup">
+        <div class="section-callback__wrap">
         <p class="section-callback__text-sub">Я даю своё</p> 
           <input class="section-callback__input-accept" type="checkbox" name="accept" value="accept" id="accept" required
-          oninvalid="this.setCustomValidity('Нажмите сюда для согласия')" oninput="setCustomValidity('')"/>
+          oninvalid="this.setCustomValidity('Кликните если согласны.')" oninput="setCustomValidity('')"/>
           <label class="section-callback__input-accept-btn" for="accept" tabindex="0" > согласие </label>
           <p class="section-callback__text-sub"> на обработку моих персональных 
      данных.</p>
@@ -94,16 +94,15 @@
       </section>
     </main>
 
-    <footer>
-      <div class="section-footer">
+    <footer class="section-footer">
         <div class="container">
           <div class="upper upper_sub">
           <div class="footer-block">
           <img class="logo" src="logo.svg" alt="logo"/>
-          <div>
+          <div class="wrap">
             <p class="footer-text">© 2022 XXXcompany.</p>
-          <p class="footer-text">Все права защищены.</p>
-        </div>
+            <p class="footer-text">Все права защищены.</p>
+         </div>
          </div>
         <p class="footer-text-middle">Сделано в Ивановым Иваном</p>
         <address class="callback-block">
@@ -114,7 +113,6 @@
       </div>
       <p class="footer-text-middle-sub">Сделано в Ивановым Иваном</p>
         </div>
-      </div>
     </footer>
   </body>
 </html>
