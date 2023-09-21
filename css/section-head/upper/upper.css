@@ -20,7 +20,7 @@
 }
 
 
-@media (max-width: 320px){
+@media (max-width: 320px), (max-width: 540px){
    .upper{
       margin-bottom: 65px;
    }

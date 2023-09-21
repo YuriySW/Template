@@ -8,6 +8,7 @@
 @import 'section-head/__title/section-head__title.css';
 @import 'section-head/__text/section-head__text.css';
 @import 'section-head/button/button.css';
+
 @import 'section-more/section-more.css';
 @import 'section-more/__title/section-more__title.css';
 @import 'section-more/about-us.css';
@@ -15,6 +16,7 @@
 @import 'section-more/__list/section-more__list.css';
 @import 'section-more/__item/section-more__item.css';
 @import 'section-more/__text/section-more__text.css';
+
 @import 'section-callback/section-callback.css';
 @import 'section-callback/__title/section-callback__title.css';
 @import 'section-callback/__text/section-callback__text.css';

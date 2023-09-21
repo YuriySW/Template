@@ -21,7 +21,7 @@
    }
 }
 
-@media (max-width: 320px){
+@media (max-width: 620px){
    .section-callback__text-sub{
       font-size: 11px;
       white-space: pre;

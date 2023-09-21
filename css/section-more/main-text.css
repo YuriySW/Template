@@ -16,7 +16,14 @@
    }
 }
 
-@media (max-width: 320px){
+@media (max-width: 675px){
+   .main-text{
+      white-space: normal;
+   }
+}
+
+
+@media (max-width: 320px), (max-width: 715px){
    .main-text{
       font-size: 12px;
       margin-bottom: 40px;

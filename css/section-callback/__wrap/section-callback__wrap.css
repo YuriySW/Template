@@ -49,7 +49,7 @@
    }
 }
 
-@media (max-width: 320px){
+@media (max-width: 620px){
    .section-callback__input-accept-btn{
       font-size: 11px;
    }

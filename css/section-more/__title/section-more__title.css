@@ -17,7 +17,8 @@
    }
 }
 
-@media (max-width: 320px){
+
+@media (max-width: 320px), (max-width: 715px) {
    .section-more__title{
       font-size: 20px;
       margin-bottom: 15px;

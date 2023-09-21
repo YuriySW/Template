@@ -15,7 +15,7 @@
 }
 
 
-@media (max-width: 320px){
+@media (max-width: 620px){
    .section-callback__form{
       gap: 15px;
       margin-bottom: 45px;

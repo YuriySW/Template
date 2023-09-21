@@ -1,5 +1,5 @@
 .section-head__title{
-   margin: 0 0 35px;
+   margin: 0 0 33px;
    color: rgba(255, 255, 255, 0.86);
    text-align: center;
    font-family: 'Roboto';
@@ -7,6 +7,7 @@
    font-style: normal;
    font-weight: 900;
    line-height: normal;
+   letter-spacing: 0.2px;
 }
 
 @media (max-width: 1024px){
@@ -17,10 +18,19 @@
    }
 }
 
-@media (max-width: 320px){
+@media (max-width: 320px), (max-width: 480px){
    .section-head__title{
       font-size: 20px;
       margin-bottom: 23px;
       white-space: unset;
    }
 }
+
+@media (max-width: 747px){
+   .section-head__title{
+      font-size: 35px;
+      margin-bottom: 23px;
+      white-space: unset;
+   }
+}
+

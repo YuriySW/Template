@@ -65,7 +65,7 @@
 
 }
 
-@media (max-width: 320px){
+@media (max-width: 320px), (max-width: 540px){
    .button{
       padding: 9px 29px;
       font-size: 16px;
