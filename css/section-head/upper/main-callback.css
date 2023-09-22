@@ -71,9 +71,13 @@
      max-width: 24px;
    }
 
-   .test, .logo-phone:active{
+   .logo-phone:active{
       color: #15A9CB;
    }
+
+   .logo-link:focus{
+   outline: 1px solid #15A9CB;
+  }
 
    .logo{
       max-width: 30px;

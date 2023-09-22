@@ -60,5 +60,9 @@
    .section-callback__input-accept:checked + .section-callback__input-accept-btn{
       color: #15A9CB;
    }
+   .section-callback__input-accept-btn:focus{
+      outline: 1px solid #15A9CB;
+      height:  10%;
+   }
   
 }
