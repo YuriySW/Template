@@ -1,5 +1,5 @@
 .section-callback__input{
-   padding: 9px 172px 9px 26px;
+   padding: 9px 0 9px 26px;
    border-radius: 50px;
    border: 1.382px solid #FFF;
    background: transparent;
@@ -9,6 +9,7 @@
    font-style: normal;
    font-weight: 400;
    line-height: normal;
+   width: 100%;
 }
 
 .section-callback__input:focus{
@@ -17,14 +18,15 @@
 
 @media (max-width: 1024px){
    .section-callback__input{
-      padding: 8px 138px 8px 23px;
+      padding: 8px 0 8px 23px;
       font-size: 20px;
+ 
    }
 }
 
 @media (max-width: 620px){
    .section-callback__input{
-      padding: 6px 127px 6px 18px;
+      padding: 6px 0 6px 18px;
       font-size: 14px;
    }
 }

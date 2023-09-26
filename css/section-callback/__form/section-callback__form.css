@@ -5,12 +5,15 @@
    align-items: center; 
    gap: 21px; 
    margin-bottom: 49.5px;
+   max-width: 423px;
+   width: 100%;
 }
 
 @media (max-width: 1024px){
    .section-callback__form{
       gap: 20px;
       margin-bottom: 50px;
+      max-width: 377px;
    }
 }
 
@@ -19,5 +22,6 @@
    .section-callback__form{
       gap: 15px;
       margin-bottom: 45px;
+      max-width: 290px;
    }
 }
